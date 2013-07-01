@@ -1,0 +1,40 @@
+<style>
+html {font-size: 0.5em;}
+#pacman {
+  height: 0;
+  width: 0;
+  border-right: 10em solid transparent;
+  border-top: 10em solid #F2EF00;
+  border-left: 10em solid #F2EF00;
+  border-bottom: 10em solid #F2EF00;
+  border-radius: 10em;
+  -webkit-animation: move-mouth 0.5s infinite;
+  animation: move-mouth 0.5s infinite;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+
+}
+#pacman:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 5em;
+  border-radius: 1em;
+  border: 1em solid black; 
+}
+
+@-webkit-keyframes move-mouth {
+  0% {
+    border-right: 10em solid #F2EF00; 
+  }
+}
+
+@keyframes move-mouth{
+	border-right: 10em solid #F2EF00;
+}
+</style>
+<div id="pacman">
+  
+</div>
+
