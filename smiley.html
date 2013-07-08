@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>smiley</title>
+	<style>
+		#smiley {
+			width: 0; height: 0;
+			border: 10em solid yellow;
+			border-radius: 10em;
+			box-shadow: 0 0 0.5em ;
+		}
+
+		#smiley:before {
+			content: "";
+			width: 0; height: 0;
+			top: 7.5em; left: 5em;
+			position: absolute;
+			
+			border-top: 5em solid transparent;
+			border-bottom: 5em solid black;
+			border-left: 5em solid transparent;
+			border-right: 5em solid black;
+			border-radius: 5em;
+
+			transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+		}
+
+		#smiley:after {
+			content: "";
+			width: 0; height: 0;
+			top: 7em; left: 5em;
+			position: absolute;
+
+			border-top: 5em solid transparent;
+			border-bottom: 5em solid yellow;
+			border-left: 5em solid transparent;
+			border-right: 5em solid yellow;
+			border-radius: 5em;
+
+			transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+		}
+
+		.eye {
+			height: 0; width: 0;
+			position: absolute;
+			border: 1em solid black;
+			border-radius: 1em;
+		}
+
+		.left {
+			top: 5em;
+			left: 5em;
+		}
+
+		.right {
+			top: 5em;
+			left: 12.5em;
+		}
+	</style>
+</head>
+<body>
+	<div id="smiley">
+		<div class="eye left">
+		</div>
+		<div class="eye right">
+		</div>
+	</div>
+</body>
+</html>
