@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typeahead</title>
+  <style>
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+[class*="fontawesome-"]:before {
+font-family: "FontAwesome", sans-serif;
+}
+
+[class*="ok"]{
+  color: #BADE63;
+}
+
+[class*="plus"]{
+  color: #7FC5EB;
+}
+
+body {
+text-align: center;
+background: #e7eff3;
+font-family: 'Archivo Narrow', sans-serif;
+}
+
+input:focus { outline: 0; }
+
+#search-container:before {
+  position: absolute;
+  padding-left: 0.75em;
+  margin-top: 0.6em;
+  font-size: 2em;
+  z-index: 1;
+  font-family: "FontAwesome", sans-serif;
+  content: "\f002";
+  -webkit-text-stroke-color: white;
+  -webkit-text-fill-color: #92a4b0;
+  -webkit-text-stroke-width: 1px;
+  
+}
+#search-container, search-results {
+width: 100%;
+}
+
+.search {
+position: relative;
+margin: 0 auto;
+height: 2em;
+width: 10em;
+border-color: transparent;
+border-radius: 0.25em;
+padding-left: 2em;
+background: #92a4b0;
+color: #e7eff3;
+font-size: 2em;
+font-family: 'Archivo Narrow', sans-serif;
+}
+
+div.search-results {
+position: relative;
+top: 1em;
+}
+
+div.search-results .result {
+text-align: left;
+line-height: 2em;
+position: relative;
+margin: 0 auto 0.05em;
+height: 2em;
+width: 10em;
+border-color: transparent;
+padding-left: 2em;
+background: white;
+color: #92a4b0;
+font-size: 2em;
+}
+div.search-results div:first-child:before {
+position: absolute;
+content: "";
+left: 1em;
+top: -0.25em;
+width: 0;
+height: 0;
+border-left: 0.25em solid transparent;
+border-right: 0.25em solid transparent;
+border-bottom: 0.25em solid white;
+}
+div.search-results a {
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  left: 1em;
+  font-size: 0.7em;
+}
+div.search-results div:first-child {
+border-top-right-radius: 0.25em;
+border-top-left-radius: 0.25em;
+}
+div.search-results div:last-child {
+color: #E7EFF3;
+border-bottom-right-radius: 0.25em;
+border-bottom-left-radius: 0.25em;
+}
+
+div.search-results div:hover:last-child{
+color: #92a4b0;
+}
+
+.icon-right {
+  float: right;
+  margin: 0 1em;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+}
+.more {
+  display: none;
+}
+::-webkit-input-placeholder { color: #fff; }
+::-moz-placeholder { color:#fff; }
+:-ms-input-placeholder { color:#f00; }
+input:-moz-placeholder { color:#f00; }
+
+  </style>
+</head>
+<body>
+<div id="search-container">
+  <input type="text" class="search" placeholder="Search">
+</div>
+<div class="search-results">
+  <div class="result"><a href="#" class="results">RESULT</a><span class="fontawesome-ok icon-right"></span></div>
+  <div class="result"><a href="#" class="results">RESULT</a><span class="fontawesome-plus icon-right"></span></div>
+  <div class="result more"><a href="#" class="results">RESULT</a><span class="fontawesome-plus icon-right"></span></div>
+  <div class="result more"><a href="#" class="results">RESULT</a><span class="fontawesome-plus icon-right"></span></div>
+  <div class="result"><a href="#" class="results">RESULT</a><span class="fontawesome-plus icon-right"></span></div>
+  <div class="result"><a href="#" class="results last">MORE</a><span class="fontawesome-chevron-down icon-right"></span></div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+  $('.results.last').click(function(){
+    $('.more').removeClass('more');
+  });
+});
+</script>
+</body>
+</html>

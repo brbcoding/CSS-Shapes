@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flat Clock</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+	<style>
+	html {
+		background: #85C3B8;
+	}
+	div {
+		display: inline-block;;
+	}
+	#container {
+		background: #FFFFFF;
+		width: 22.5em;
+		height: 10em;
+		border-top-left-radius: 0.25em;
+		border-bottom-left-radius: 0.25em;
+		font-family: 'Fauna One', serif;
+	}
+	#clock {
+		position: absolute;
+		width: 8em;
+		height: 8em;
+		top: 1.5em;
+		left: 1.5em;
+		border-radius: 5em;
+		background: #5FA699;
+	}
+	#date {
+		position: absolute;
+		top: 3em;
+		left: 11.5em;
+	}
+	#container-right {
+		margin: 0; padding: 0;
+		height: 10em;
+		width: 4em;
+		margin-left: -.25em;
+		background: #606573;
+		border-top-right-radius: 0.25em;
+		border-bottom-right-radius: 0.25em;
+	}
+	.weekday, .time {
+		color: #BABCC2;
+	}
+	.time {
+		font-size: 0.75em;
+	}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="clock">
+		</div>
+		<div id="date">
+			<span class="weekday">Tuesday</span><br />
+			<strong>JULY 9TH, 2013</strong><br /><br />
+			<span class="time">9:26 AM</span>
+		</div>
+	</div>
+	<div id="container-right">
+		
+	</div>
+
+</body>
+</html>
