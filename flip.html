@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flip</title>
+	<style>
+	div
+	{
+		transform: rotateX(120deg);
+		-webkit-transform: rotateX(120deg); 
+	}
+	#coin {
+		width: 10em;
+		height: 10em;
+		border-radius: 5em;
+		background: gray;
+		-webkit-backface-visibility: hidden;
+  		-moz-backface-visibility:    hidden;
+  		-ms-backface-visibility:     hidden;
+		-webkit-animation: flip 1s ease infinite;
+
+	}
+
+	@-webkit-keyframes flip {
+		0% {
+		transform: rotateX(30deg);
+		-webkit-transform: rotateX(30deg); 
+		}
+		10% {
+		transform: rotateX(60deg);
+		-webkit-transform: rotateX(60deg); 
+		}
+		20% {
+		transform: rotateX(90deg);
+		-webkit-transform: rotateX(90deg); 
+		}
+		30% {
+		transform: rotateX(120deg);
+		-webkit-transform: rotateX(120deg); 
+		}
+		40% {
+		transform: rotateX(150deg);
+		-webkit-transform: rotateX(150deg); 
+		}
+		50% {
+		transform: rotateX(180deg);
+		-webkit-transform: rotateX(180deg); 
+		}
+		60% {
+		transform: rotateX(220deg);
+		-webkit-transform: rotateX(220deg); 
+		}
+		70% {
+		transform: rotateX(250deg);
+		-webkit-transform: rotateX(250deg); 
+		}
+		80% {
+		transform: rotateX(280deg);
+		-webkit-transform: rotateX(280deg); 
+		}
+		90% {
+		transform: rotateX(310deg);
+		-webkit-transform: rotateX(310deg); 
+		}
+		100% {
+		transform: rotateX(360deg);
+		-webkit-transform: rotateX(360deg); 
+		}
+	}
+	</style>
+</head>
+<body>
+<div id="coin">
+</div>	
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>3-D Cube</title>
+	<style>
+	#container {
+		position: relative;
+		top: 10em;
+		-webkit-perspective: 800;
+		-webkit-perspective-origin: 50% 200px;
+	}
+
+	#cube {
+		position: relative;
+		margin: 0 auto;
+		height: 400px;
+		width: 400px;
+		font-size: 15em;
+		line-height: 400px;
+		text-align: center;
+		-webkit-transition: -webkit-transform 2s linear;
+		-webkit-transform-style: preserve-3d;
+		-webkit-animation: rotate-cube 5s infinite;
+		animation: rotate-cube 5s infinite;
+	}
+
+    .face {
+		position: absolute;
+		display: block;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(3, 168, 158, 0.75);
+		border: 1px solid black;
+		color: white;
+		-webkit-animation: bg-color 5s ease infinite;
+		animation: bg-color 5s ease infinite;
+    }
+
+    #cube .one   { -webkit-transform: rotateX(90deg) translateZ(200px); }
+    #cube .two   { -webkit-transform: translateZ(200px); }
+    #cube .three { -webkit-transform: rotateY(90deg) translateZ(200px); }
+    #cube .four  { -webkit-transform: rotateY(180deg) translateZ(200px) rotate(180deg); }
+	#cube .five  { -webkit-transform: rotateY(-90deg) translateZ(200px); }
+	#cube .six   { -webkit-transform: rotateX(-90deg) translateZ(200px) rotate(360deg); }
+
+	/* rotate cube */
+    @-webkit-keyframes rotate-cube {
+    	0%   { -webkit-transform: translateZ( -100px ) rotateY(    0deg ); }
+		15%  { -webkit-transform: translateZ( -100px ) rotateX( -180deg ); }
+		30%  { -webkit-transform: translateZ( -100px ) rotateY(  -90deg ); }
+		45%  { -webkit-transform: translateZ( -100px ) rotateY(   90deg ); }
+		60%  { -webkit-transform: translateZ( -100px ) rotateX(  -90deg ); }
+		85%  { -webkit-transform: translateZ( -100px ) rotateX(   90deg ); }
+		100% { -webkit-transform: translateZ( -100px ) rotateY(    0deg ); }
+    }
+
+    @keyframes rotate-cube{
+    	0%   { transform: translateZ( -100px ) rotateY(    0deg ); }
+		15%  { transform: translateZ( -100px ) rotateX( -180deg ); }
+		30%  { transform: translateZ( -100px ) rotateY(  -90deg ); }
+		45%  { transform: translateZ( -100px ) rotateY(   90deg ); }
+		60%  { transform: translateZ( -100px ) rotateX(  -90deg ); }
+		85%  { transform: translateZ( -100px ) rotateX(   90deg ); }
+		100% { transform: translateZ( -100px ) rotateY(    0deg ); }
+    }
+    @-webkit-keyframes bg-color {
+		0%   {  background-color: rgba(174,192,205, 0.5 ); }
+		15%  {  background-color: rgba(148,163,171, 0.5); }
+		30%  {  background-color: rgba(15,98,158, 0.5); }
+		45%  {  background-color: rgba(7,53,87, 0.5); }
+		60%  {  background-color: rgba(5,33,54, 0.5); }
+		85%  {  background-color: rgba(174,192,205, 0.5); }
+		100% {  background-color: rgba(148,163,171, 0.5); }
+    }
+
+    @keyframes bg-color {
+		0%   {  background-color: rgba(174,192,205, 0.5 ); }
+		15%  {  background-color: rgba(148,163,171, 0.5); }
+		30%  {  background-color: rgba(15,98,158, 0.5); }
+		45%  {  background-color: rgba(7,53,87, 0.5); }
+		60%  {  background-color: rgba(5,33,54, 0.5); }
+		85%  {  background-color: rgba(174,192,205, 0.5); }
+		100% {  background-color: rgba(148,163,171, 0.5); }
+    }
+
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="cube">
+			<div class="face one">1</div>
+			<div class="face two">2</div>
+			<div class="face three">3</div>
+			<div class="face four">4</div>
+			<div class="face five">5</div>
+			<div class="face six">6</div>
+		</div>
+	</div>
+</body>
+</html>
