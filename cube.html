@@ -57,22 +57,33 @@
 
 	/* cube faces */
     #cube .one   { 
+    	transform: rotateX(90deg) translateZ(200px); 
     	-webkit-transform: rotateX(90deg) translateZ(200px); 
     }
     #cube .two   { 
+    	transform: translateZ(200px); 
     	-webkit-transform: translateZ(200px); 
     }
     #cube .three {
+    	transform: rotateY(90deg) translateZ(200px); 
     	-webkit-transform: rotateY(90deg) translateZ(200px); 
     }
     #cube .four  { 
+    	transform: rotateY(180deg) translateZ(200px) rotate(180deg); 
     	-webkit-transform: rotateY(180deg) translateZ(200px) rotate(180deg); 
     }
 	#cube .five  { 
 		-webkit-transform: rotateY(-90deg) translateZ(200px); 
+		-webkit-transform: rotateY(-90deg) translateZ(200px); 
 	}
 	#cube .six   { 
+		transform: rotateX(-90deg) translateZ(200px) rotate(360deg); 
 		-webkit-transform: rotateX(-90deg) translateZ(200px) rotate(360deg); 
+	}
+
+	body { 
+		-webkit-animation: bg-color 20s ease infinite;
+		animation: bg-color 20s ease infinite;
 	}
 
 	/* rotate cube */
@@ -83,7 +94,7 @@
 		45%  { -webkit-transform: translateZ( -250px ) rotateY(  -90deg ); }
 		60%  { -webkit-transform: translateZ( -500px ) rotateX( -180deg ); }
 		85%  { -webkit-transform: translateZ( -750px ) rotateX(   90deg ); }
-		100% { -webkit-transform: translateZ( 0px ) rotateY(    0deg ); }
+		100% { -webkit-transform: translateZ( 0px ) rotateY( 0deg ); }
     }
 
     @keyframes rotate-cube{
