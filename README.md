@@ -1,7 +1,7 @@
 CSS-Shapes
 ==========
 
-Basic shapes made purely with CSS - (SOME) Screenshots Below
+Shapes and UI elements made with CSS - (SOME) Screenshots Below
 
 ![Aces](http://i.imgur.com/DrcNwlO.png)  
 ![Pacman](http://i.imgur.com/PCvB92i.png)  
