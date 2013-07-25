@@ -1,0 +1,27 @@
+$color: rgba(0, 160, 176, 1);
+$bttns: 5;
+@for $i from 1 through $bttns {
+  .button#{$i}{
+    background: lighten($color,$i * $i);
+  }
+}
+input[class*="button"]{
+  display: block;
+  width: 200px;
+  height: 75px;
+  font-size: 1.5em;
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+  @include single-box-shadow(rgba(50,50,50,0.5), 0.1em, 0.1em);
+  @include transform-style(preserve-3d);
+  @include transition(0.75s);
+  @include transform(rotateY(0deg)); // damn blink
+  &:not(:first-of-type){
+    margin-top: 1em;
+  }
+  &:hover {
+    @include rotateY(180deg);
+  }
+}
+
