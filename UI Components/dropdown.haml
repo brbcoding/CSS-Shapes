@@ -1,0 +1,14 @@
+:javascript
+  $( document ).ready( function(){
+    $( '.contents' ).toggle( );
+    $( '.link' ).click( function( ){
+    $( '.contents' ).toggle( )
+    })
+  });
+.dropdown-menu
+  %a{ :href=>'#',
+      :class=>'link' } Click 
+
+  %ul{ :class=>"contents" }
+    - (1..3).each do |x|
+      %li{ :class=>"item#{x}" } Link #{x}

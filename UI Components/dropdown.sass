@@ -1,0 +1,37 @@
+$dark-blue: #2c3e50
+$roboto: 'Roboto', sans-serif
+*
+  font-family: roboto
+.link
+  border-top-right-radius: 1em
+  border-top-left-radius: 1em
+  position: absolute
+  background: $dark-blue
+  padding: 1em
+  color: white
+  font-size: 2em
+  width: 10em
+  text-decoration: none
+.contents
+  padding-left: 0
+li[class*=item]
+  position: relative
+  top: 3.45em
+  font-size: 2em
+  width: 10em
+  padding: 1em
+  list-style-type: none
+  color: white
+  &:not(:first-of-type)
+    margin-top: 0.1em
+    &:last-of-type
+      border-bottom-left-radius: 1em
+      border-bottom-right-radius: 1em
+// loop through and change the color
+$i: 3
+@while $i > 0
+  .item#{$i}
+    background-color: lighten( $dark-blue, $i * 7 )
+    $i: $i - 1
+    
+  
