@@ -1,0 +1,25 @@
+body {
+  background: no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  -webkit-animation: change-bg 10s ease infinite;
+  animation: change-bg 10s ease infinite;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@-webkit-keyframes change-bg{
+  0%  { background-image: url('http://lorempixel.com/500/500'); }
+  50% { background-image:  url('http://lorempixel.com/501/501');  }
+  100% { background-image: url('http://lorempixel.com/503/503'); }
+}
+
+@keyframes change-bg {
+  0%  { background-image: url('http://lorempixel.com/500/500'); }
+  50% { background-image:  url('http://lorempixel.com/501/501');  }
+  100% { background-image: url('http://lorempixel.com/503/503'); }
+}
+
+/* add the other vendor prefixes if needed. */
