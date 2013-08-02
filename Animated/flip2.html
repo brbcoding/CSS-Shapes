@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flip</title>
+	<style>
+	div
+	{
+		transform: rotateX(120deg);
+		-webkit-transform: rotateX(120deg); 
+	}
+	#coin {
+		width: 10em;
+		height: 10em;
+		border-radius: 5em;
+		background: gray;
+		-webkit-backface-visibility: hidden;
+  		-moz-backface-visibility:    hidden;
+  		-ms-backface-visibility:     hidden;
+		-webkit-animation: flip 5s ease infinite;
+
+	}
+
+	@-webkit-keyframes flip {
+		from { -webkit-transform: rotateX(-180deg) rotateY(-180deg); }
+		50%  { -webkit-transform: rotateX(180deg) rotateY(180deg); }
+		to { -webkit-transform: rotateX(-180deg) rotateY(-180deg); }
+	}
+	</style>
+</head>
+<body>
+<div id="coin">
+</div>	
+</body>
+</html>
