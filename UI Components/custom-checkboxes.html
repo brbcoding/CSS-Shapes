@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Custom Checkboxes</title>
+	<link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+	<style>
+	@import url('http://weloveiconfonts.com/api/?family=fontawesome');
+	/* fontawesome */
+	html {
+	  font-family: 'Fauna One', serif;
+	}
+	input[type='checkbox']{
+		-webkit-appearance: none;
+		position: relative;		
+		display: block;
+		font-size: 2em;
+		width: 1em;
+		height: 1em;
+	}
+
+	.one {
+		background: #16a085;
+	}
+	
+	.one:checked:after {
+		position: relative;
+		left: 0.1em;
+		color: white;
+		content: '\2714';
+	}
+
+	.two {
+		background: #e67e22;
+	}
+	
+	.two:checked:after {
+		position: relative;
+		color: white;
+		font-family: 'FontAwesome', sans-serif;
+		content: '\f00c';
+	}
+
+	.three {
+		background: #9b59b6;
+	}
+	
+	.three:checked:after {
+		position: relative;
+		left: 0.2em;
+		bottom: 0.2rem;
+		color: white;
+		font-family: 'FontAwesome', sans-serif;
+		content: '\f005';
+		font-size: 1.5rem;
+	}
+	
+	.four {
+		background: #f1c40f;
+	}
+
+	.four:checked:after {
+		position: relative;
+		left: 0.2em;
+		bottom: 0.2rem;
+		color: white;
+		font-family: 'FontAwesome', sans-serif;
+		content: '\f058';
+		font-size: 1.5rem;
+	}
+
+	.five {
+		background: #2980b9;
+	}
+
+	.five:checked:after {
+		position: relative;
+		left: 0.2em;
+		bottom: 0.2rem;
+		color: white;
+		font-family: 'FontAwesome', sans-serif;
+		content: '\f006';
+		font-size: 1.5rem;
+	}
+	</style>
+</head>
+<body>
+	<h3>-webkit browsers only</h3>
+	<input type="checkbox" class="one">
+	<input type="checkbox" class="two">
+	<input type="checkbox" class="three">
+	<input type="checkbox" class="four">
+	<input type="checkbox" class="five">
+</body>
+</html>
