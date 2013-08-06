@@ -1,12 +1,14 @@
 .mario {
   width: 1em;
   height: 1em;
-  margin-top: 15em;
-  margin-left: 95%;
+  margin-top: 15%;
+  margin-left: 15%;
   background: #ff0000;
+  /*
   -webkit-animation: move 5s linear;
   -moz-animation: move 5s linear;
   animation: move 5s linear;
+  */
   box-shadow:  2em 0    0 0 #ff0000,
                1em 0    0 0 #ff0000,    
               -1em 0    0 0 #ff0000,
@@ -167,7 +169,7 @@
               -6em 15em 0 0 #945100; 
   
 }
-/* move mario from left to right */
+/*
 @keyframes move {
   from { margin-left: 5%;    
          margin-top:  15em; }
@@ -209,3 +211,4 @@
          margin-top:  5em;  }
   to   { margin-left: 95%;  }
 }
+*/
