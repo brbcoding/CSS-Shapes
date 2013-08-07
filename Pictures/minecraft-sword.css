@@ -1,0 +1,120 @@
+/* Colors */
+/* darkest blue/green: #123c30 */
+/* darker blue: #2fa78b */
+/* medium blue: #2bc4a8 */
+/* lightest blue: #41e4c5 */
+/* dark brown: #27140E */
+/* medium brown:	#483514 */
+/* light brown: #6B5019 */
+/* lightest brown: #8D6422 */
+.sword {
+	margin-left: 25em;
+	width: 1em;
+	height: 1em;
+	background: #123c30;
+	box-shadow: 1em   0   0 0 #123c30, 
+				2em   0   0 0 #123c30,
+				  
+				0     1em 0 0 #123c30,
+				1em   1em 0 0 #2bc4a8,
+				2em   1em 0 0 #41e4c5,
+				3em   1em 0 0 #123c30,
+				  
+				0     2em 0 0 #123c30,
+				1em   2em 0 0 #41e4c5,
+				2em   2em 0 0 #2bc4a8,
+				3em   2em 0 0 #41e4c5,
+				4em   2em 0 0 #123c30,
+				  
+				1em   3em 0 0 #123c30,
+				2em   3em 0 0 #41e4c5,
+				3em   3em 0 0 #2bc4a8,
+				4em   3em 0 0 #41e4c5,
+				5em   3em 0 0 #123c30,
+				  
+				2em   4em 0 0 #123c30,
+				3em   4em 0 0 #41e4c5,
+				4em   4em 0 0 #2bc4a8,
+				5em   4em 0 0 #41e4c5,
+				6em   4em 0 0 #123c30,
+				  
+				3em   5em 0 0 #123c30,
+				4em   5em 0 0 #41e4c5,
+				5em   5em 0 0 #2bc4a8,
+				6em   5em 0 0 #41e4c5,
+				7em   5em 0 0 #123c30,
+				  
+				4em   6em 0 0 #123c30,
+				5em   6em 0 0 #41e4c5,
+				6em   6em 0 0 #2bc4a8,
+				7em   6em 0 0 #41e4c5,
+				8em   6em 0 0 #123c30,
+				12em  6em 0 0 #123c30,
+				13em  6em 0 0 #123c30,
+				  
+				5em   7em 0 0 #123c30,
+				6em   7em 0 0 #41e4c5,
+				7em   7em 0 0 #2bc4a8,
+				8em   7em 0 0 #41e4c5,
+				9em   7em 0 0 #123c30,
+				11em  7em 0 0 #123c30,
+				12em  7em 0 0 #2fa78b,
+				13em  7em 0 0 #123c30,
+				  
+				6em   8em 0 0 #123c30,
+				7em   8em 0 0 #41e4c5,
+				8em   8em 0 0 #2bc4a8,
+				9em   8em 0 0 #41e4c5,
+				10em  8em 0 0 #123c30,
+				11em  8em 0 0 #2fa78b,
+				12em  8em 0 0 #123c30,
+				12em  8em 0 0 #2fa78b,
+				
+				7em   9em 0 0 #123c30,
+				8em   9em 0 0 #41e4c5,
+				9em   9em 0 0 #2bc4a8,
+				10em  9em 0 0 #123c30,
+				11em  9em 0 0 #2fa78b,
+				12em  9em 0 0 #123c30,
+ 
+				8em  10em 0 0 #123c30,
+				9em  10em 0 0 #123c30,
+				10em 10em 0 0 #2fa78b,
+				11em 10em 0 0 #123c30,
+
+				7em  11em 0 0 #123c30,
+				8em  11em 0 0 #2fa78b,
+				9em  11em 0 0 #2fa78b,
+				10em 11em 0 0 #123c30,
+				11em 11em 0 0 #6B5019,
+				12em 11em 0 0 #483514,
+
+				6em  12em 0 0 #123c30,
+				7em  12em 0 0 #2fa78b,
+				8em  12em 0 0 #123c30,  
+				9em  12em 0 0 #123c30,
+				11em 12em 0 0 #27140e,
+				12em 12em 0 0 #8d6422,
+				13em 12em 0 0 #483514,
+
+				6em  13em 0 0 #123c30,
+				7em  13em 0 0 #123c30,
+				12em 13em 0 0 #27140e,
+				13em 13em 0 0 #6B5019,
+				14em 13em 0 0 #123c30,
+				15em 13em 0 0 #123c30,
+
+				13em 14em 0 0 #123c30,
+				14em 14em 0 0 #2fa78b,
+				15em 14em 0 0 #123c30,
+
+				13em 15em 0 0 #123c30,
+				14em 15em 0 0 #123c30,
+				15em 15em 0 0 #123c30;
+				
+				
+			    /* @todo: 3dify */
+			    /* @todo: rotate 3d */
+
+				
+}
