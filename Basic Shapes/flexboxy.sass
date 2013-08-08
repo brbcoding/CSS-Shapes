@@ -1,0 +1,17 @@
+$light-blue: #2980b9 
+*
+  margin: 0
+  padding: 0
+.flexbox
+  display: -webkit-flex
+  -webkit-flex-flow: row wrap
+  width: 100%
+  height: 1000px
+  @for $i from 1 to 201
+    .child-#{$i}
+      width: 10%
+      box-shadow: 0.1em 0 0.3em 0 #000
+      background: darken($light-blue, $i * 0.2)
+      &:hover
+        background: lighten($light-blue, $i * 0.1)
+        
