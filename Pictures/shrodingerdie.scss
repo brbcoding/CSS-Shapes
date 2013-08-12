@@ -1,0 +1,78 @@
+$width: 10em;
+$height: 10em;
+$dblue: #34495e;
+
+.cube-container {
+	width: $width;
+	height: $height;
+	position: relative;
+	-webkit-perspective: 1000px;
+	left: $width / 2;
+	top: $width / 2;
+	.cube {
+		width: 100%;
+		height: 100%;
+	    position: absolute;
+	    transform-style: preserve-3d;
+	    -webkit-transform-style: preserve-3d;
+	    -webkit-animation: 5s rotate infinite;
+	    & figure {
+	    width: 199px;
+	    height: 199px;
+		position: absolute;
+		display: block;
+		opacity: 0.6;
+		-webkit-backface-visibility: hidden;
+		&:nth-of-type(odd){
+			&:after {
+				content: url(http://i.imgur.com/vBdQnMh.png);
+				position: absolute;
+				left: 15%;
+				top: 7.5%;
+				}
+			}
+		&:nth-of-type(even){
+			&:after {
+				content: url(http://i.imgur.com/hdXrmpu.png);
+				position: absolute;
+				left: 15%;
+				top: 7.5%;
+				}
+		}
+			&.front {
+				background: $dblue;
+				-webkit-transform: rotateX( 0deg )  translateZ( 100px );
+			}
+			&.back {
+				background: lighten($dblue, 5%);
+				-webkit-transform: rotateX( 180deg ) translateZ( 100px );
+			}
+			&.right {
+				background: lighten($dblue, 10%);
+				-webkit-transform: rotateY( 90deg ) translateZ( 100px );
+			}
+			&.left {
+				background: lighten($dblue, 15%);
+				-webkit-transform: rotateY( -90deg ) translateZ( 100px ); 
+			}
+			&.top {
+				background: lighten($dblue, 20%);
+				-webkit-transform: rotateX( 90deg ) translateZ( 100px );
+			}
+			&.bottom {
+				background: lighten($dblue, 15%);
+				-webkit-transform: rotateX( -90deg ) translateZ( 100px );
+
+			}
+	    }
+	}
+}
+@-webkit-keyframes rotate {
+	0%   { -webkit-transform: translateZ( -250px ) rotateX(    360deg ); }
+	15%  { -webkit-transform: translateZ( -750px ) rotateX(  -90deg ); }
+	30%  { -webkit-transform: translateZ( -500px ) rotateY(   90deg ); }
+	45%  { -webkit-transform: translateZ( -250px ) rotateY(  -90deg ); }
+	60%  { -webkit-transform: translateZ( -500px ) rotateX( -180deg ); }
+	85%  { -webkit-transform: translateZ( -750px ) rotateX(   90deg ); }
+	100% { -webkit-transform: translateZ( -500px ) rotateY( 0deg ); }
+}
