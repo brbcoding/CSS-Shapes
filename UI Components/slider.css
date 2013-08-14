@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+.slider {
+  margin: 0 auto;
+  font-size: 2em;
+  font-family: 'Droid Sans', sans-serif;
+  width: 200%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #4d4d4d), color-stop(0.4, #4d4d4d), color-stop(0.5, white), color-stop(0.6, #4d4d4d), color-stop(1, #4d4d4d));
+  -webkit-animation: change-color 3s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.container {
+  padding: 1em;
+  border-radius: 1em;
+  width: 200px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #010101), color-stop(1, #181818)); }
+
+@-webkit-keyframes change-color {
+  0% {
+    background-position: -200px 0; }
+
+  100% {
+    background-position: 150px 0; } }

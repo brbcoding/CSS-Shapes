@@ -1,1 +1,8 @@
-/* nothing under construction at the moment */
+$width: 250px;
+$height: 250px;
+
+i.ball {
+	width: $width / 2;
+	height: $height / 2;
+	border: 1px solid black;
+}

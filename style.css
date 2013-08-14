@@ -1,1 +1,4 @@
-/* nothing under construction at the moment */
+i.ball {
+  width: 125px;
+  height: 125px;
+  border: 1px solid black; }
