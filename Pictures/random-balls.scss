@@ -1,0 +1,29 @@
+div[class*="ball"]{
+  border-radius: 100%;
+  position: absolute;
+  animation: move 5s infinite ease-in-out;
+  -webkit-animation: move 5s infinite ease-in-out;
+  
+}
+
+@for $i from 1 through 100 {
+  $dim: random(150);
+  .ball#{$i} {
+    background: rgba(random(255),random(255),random(255),random(100) / 100);
+    width: $dim + px;
+    height: $dim + px;
+    margin-left: random(500) + px;
+    left: random(500) + px;
+    top: random(500) + px;
+    &:active {
+          background: rgba(random(255),random(255),random(255),random(100) / 100);
+    }
+  }
+}
+
+@keyframes move {
+  50%  { left: random(500) + px;  }
+}
+
+@-webkit-keyframes move {
+  50%  { left: random(500) + px; } }

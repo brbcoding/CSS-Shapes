@@ -1,0 +1,1218 @@
+div[class*="ball"] {
+  border-radius: 100%;
+  position: absolute;
+  animation: move 5s infinite ease-in-out;
+  -webkit-animation: move 5s infinite ease-in-out;
+}
+
+.ball1 {
+  background: rgba(178, 163, 212, 0.53);
+  width: 53px;
+  height: 53px;
+  margin-left: 57px;
+  left: 329px;
+  top: 225px;
+}
+.ball1:active {
+  background: rgba(221, 186, 216, 0);
+}
+
+.ball2 {
+  background: rgba(27, 130, 215, 0.85);
+  width: 135px;
+  height: 135px;
+  margin-left: 207px;
+  left: 382px;
+  top: 448px;
+}
+.ball2:active {
+  background: rgba(229, 70, 244, 0.31);
+}
+
+.ball3 {
+  background: rgba(136, 151, 5, 0.53);
+  width: 134px;
+  height: 134px;
+  margin-left: 266px;
+  left: 189px;
+  top: 332px;
+}
+.ball3:active {
+  background: rgba(131, 123, 149, 0.45);
+}
+
+.ball4 {
+  background: rgba(12, 98, 69, 0.15);
+  width: 35px;
+  height: 35px;
+  margin-left: 461px;
+  left: 153px;
+  top: 50px;
+}
+.ball4:active {
+  background: rgba(226, 33, 18, 0.17);
+}
+
+.ball5 {
+  background: rgba(109, 64, 83, 0.24);
+  width: 137px;
+  height: 137px;
+  margin-left: 283px;
+  left: 420px;
+  top: 231px;
+}
+.ball5:active {
+  background: rgba(17, 239, 30, 0.28);
+}
+
+.ball6 {
+  background: rgba(70, 154, 3, 0.93);
+  width: 5px;
+  height: 5px;
+  margin-left: 338px;
+  left: 174px;
+  top: 255px;
+}
+.ball6:active {
+  background: rgba(144, 252, 111, 0.93);
+}
+
+.ball7 {
+  background: rgba(44, 104, 227, 0.32);
+  width: 127px;
+  height: 127px;
+  margin-left: 482px;
+  left: 74px;
+  top: 315px;
+}
+.ball7:active {
+  background: rgba(247, 107, 81, 0.51);
+}
+
+.ball8 {
+  background: rgba(253, 164, 238, 0.86);
+  width: 88px;
+  height: 88px;
+  margin-left: 292px;
+  left: 475px;
+  top: 329px;
+}
+.ball8:active {
+  background: rgba(20, 1, 62, 0.1);
+}
+
+.ball9 {
+  background: rgba(206, 119, 111, 0.19);
+  width: 15px;
+  height: 15px;
+  margin-left: 170px;
+  left: 420px;
+  top: 381px;
+}
+.ball9:active {
+  background: rgba(242, 231, 82, 0.65);
+}
+
+.ball10 {
+  background: rgba(193, 68, 78, 0.61);
+  width: 138px;
+  height: 138px;
+  margin-left: 498px;
+  left: 437px;
+  top: 259px;
+}
+.ball10:active {
+  background: rgba(213, 151, 179, 0.78);
+}
+
+.ball11 {
+  background: rgba(35, 145, 201, 0.7);
+  width: 40px;
+  height: 40px;
+  margin-left: 171px;
+  left: 97px;
+  top: 191px;
+}
+.ball11:active {
+  background: rgba(56, 157, 140, 0.17);
+}
+
+.ball12 {
+  background: rgba(176, 119, 252, 0.27);
+  width: 108px;
+  height: 108px;
+  margin-left: 477px;
+  left: 350px;
+  top: 37px;
+}
+.ball12:active {
+  background: rgba(111, 60, 197, 0.74);
+}
+
+.ball13 {
+  background: rgba(88, 10, 239, 0.32);
+  width: 76px;
+  height: 76px;
+  margin-left: 414px;
+  left: 6px;
+  top: 446px;
+}
+.ball13:active {
+  background: rgba(133, 40, 171, 0.97);
+}
+
+.ball14 {
+  background: rgba(135, 66, 23, 0.59);
+  width: 63px;
+  height: 63px;
+  margin-left: 476px;
+  left: 161px;
+  top: 12px;
+}
+.ball14:active {
+  background: rgba(201, 83, 215, 0.8);
+}
+
+.ball15 {
+  background: rgba(204, 128, 132, 0.72);
+  width: 66px;
+  height: 66px;
+  margin-left: 499px;
+  left: 120px;
+  top: 269px;
+}
+.ball15:active {
+  background: rgba(206, 83, 12, 0.48);
+}
+
+.ball16 {
+  background: rgba(204, 194, 158, 0.61);
+  width: 34px;
+  height: 34px;
+  margin-left: 39px;
+  left: 336px;
+  top: 305px;
+}
+.ball16:active {
+  background: rgba(48, 141, 152, 0.96);
+}
+
+.ball17 {
+  background: rgba(228, 99, 153, 0.49);
+  width: 82px;
+  height: 82px;
+  margin-left: 452px;
+  left: 106px;
+  top: 382px;
+}
+.ball17:active {
+  background: rgba(156, 166, 247, 0.14);
+}
+
+.ball18 {
+  background: rgba(184, 10, 112, 0.78);
+  width: 103px;
+  height: 103px;
+  margin-left: 407px;
+  left: 168px;
+  top: 145px;
+}
+.ball18:active {
+  background: rgba(38, 122, 11, 0.53);
+}
+
+.ball19 {
+  background: rgba(10, 112, 112, 0.69);
+  width: 5px;
+  height: 5px;
+  margin-left: 99px;
+  left: 18px;
+  top: 145px;
+}
+.ball19:active {
+  background: rgba(134, 11, 236, 0.56);
+}
+
+.ball20 {
+  background: rgba(133, 232, 14, 0.3);
+  width: 89px;
+  height: 89px;
+  margin-left: 144px;
+  left: 401px;
+  top: 185px;
+}
+.ball20:active {
+  background: rgba(184, 64, 79, 0.32);
+}
+
+.ball21 {
+  background: rgba(21, 101, 209, 0.07);
+  width: 140px;
+  height: 140px;
+  margin-left: 119px;
+  left: 222px;
+  top: 36px;
+}
+.ball21:active {
+  background: rgba(242, 43, 86, 0.95);
+}
+
+.ball22 {
+  background: rgba(20, 141, 182, 0.94);
+  width: 111px;
+  height: 111px;
+  margin-left: 125px;
+  left: 366px;
+  top: 333px;
+}
+.ball22:active {
+  background: rgba(89, 86, 111, 0.55);
+}
+
+.ball23 {
+  background: rgba(228, 157, 180, 0.58);
+  width: 58px;
+  height: 58px;
+  margin-left: 237px;
+  left: 95px;
+  top: 467px;
+}
+.ball23:active {
+  background: rgba(81, 127, 128, 0.03);
+}
+
+.ball24 {
+  background: rgba(116, 179, 25, 0.98);
+  width: 46px;
+  height: 46px;
+  margin-left: 457px;
+  left: 165px;
+  top: 94px;
+}
+.ball24:active {
+  background: rgba(244, 173, 211, 0.13);
+}
+
+.ball25 {
+  background: rgba(116, 146, 142, 0.29);
+  width: 28px;
+  height: 28px;
+  margin-left: 286px;
+  left: 432px;
+  top: 173px;
+}
+.ball25:active {
+  background: rgba(45, 132, 21, 0.14);
+}
+
+.ball26 {
+  background: rgba(0, 134, 170, 0.96);
+  width: 25px;
+  height: 25px;
+  margin-left: 21px;
+  left: 381px;
+  top: 456px;
+}
+.ball26:active {
+  background: rgba(122, 26, 32, 0.21);
+}
+
+.ball27 {
+  background: rgba(144, 55, 88, 0.41);
+  width: 48px;
+  height: 48px;
+  margin-left: 232px;
+  left: 250px;
+  top: 162px;
+}
+.ball27:active {
+  background: rgba(193, 0, 132, 0.75);
+}
+
+.ball28 {
+  background: rgba(153, 23, 200, 0);
+  width: 50px;
+  height: 50px;
+  margin-left: 11px;
+  left: 322px;
+  top: 350px;
+}
+.ball28:active {
+  background: rgba(124, 1, 169, 0.03);
+}
+
+.ball29 {
+  background: rgba(247, 141, 164, 0.83);
+  width: 63px;
+  height: 63px;
+  margin-left: 291px;
+  left: 327px;
+  top: 132px;
+}
+.ball29:active {
+  background: rgba(106, 99, 25, 0.28);
+}
+
+.ball30 {
+  background: rgba(170, 172, 214, 0.63);
+  width: 111px;
+  height: 111px;
+  margin-left: 482px;
+  left: 71px;
+  top: 5px;
+}
+.ball30:active {
+  background: rgba(141, 207, 87, 0.05);
+}
+
+.ball31 {
+  background: rgba(71, 103, 15, 0.13);
+  width: 136px;
+  height: 136px;
+  margin-left: 137px;
+  left: 274px;
+  top: 167px;
+}
+.ball31:active {
+  background: rgba(153, 28, 71, 0.53);
+}
+
+.ball32 {
+  background: rgba(215, 131, 129, 0.2);
+  width: 104px;
+  height: 104px;
+  margin-left: 398px;
+  left: 473px;
+  top: 77px;
+}
+.ball32:active {
+  background: rgba(169, 25, 65, 0.85);
+}
+
+.ball33 {
+  background: rgba(235, 23, 129, 0.57);
+  width: 17px;
+  height: 17px;
+  margin-left: 205px;
+  left: 76px;
+  top: 422px;
+}
+.ball33:active {
+  background: rgba(102, 40, 13, 0.06);
+}
+
+.ball34 {
+  background: rgba(250, 17, 165, 0.94);
+  width: 99px;
+  height: 99px;
+  margin-left: 70px;
+  left: 25px;
+  top: 205px;
+}
+.ball34:active {
+  background: rgba(226, 100, 252, 0.61);
+}
+
+.ball35 {
+  background: rgba(254, 205, 58, 0.09);
+  width: 139px;
+  height: 139px;
+  margin-left: 428px;
+  left: 128px;
+  top: 387px;
+}
+.ball35:active {
+  background: rgba(72, 35, 178, 0.33);
+}
+
+.ball36 {
+  background: rgba(170, 153, 177, 0.28);
+  width: 18px;
+  height: 18px;
+  margin-left: 215px;
+  left: 301px;
+  top: 30px;
+}
+.ball36:active {
+  background: rgba(35, 24, 93, 0.82);
+}
+
+.ball37 {
+  background: rgba(14, 230, 124, 0.32);
+  width: 92px;
+  height: 92px;
+  margin-left: 286px;
+  left: 40px;
+  top: 275px;
+}
+.ball37:active {
+  background: rgba(1, 188, 108, 0.13);
+}
+
+.ball38 {
+  background: rgba(117, 149, 61, 0.8);
+  width: 68px;
+  height: 68px;
+  margin-left: 10px;
+  left: 91px;
+  top: 404px;
+}
+.ball38:active {
+  background: rgba(154, 23, 205, 0.49);
+}
+
+.ball39 {
+  background: rgba(53, 11, 43, 0.63);
+  width: 5px;
+  height: 5px;
+  margin-left: 126px;
+  left: 405px;
+  top: 257px;
+}
+.ball39:active {
+  background: rgba(151, 98, 44, 0.42);
+}
+
+.ball40 {
+  background: rgba(153, 29, 72, 0.84);
+  width: 35px;
+  height: 35px;
+  margin-left: 498px;
+  left: 285px;
+  top: 398px;
+}
+.ball40:active {
+  background: rgba(134, 19, 191, 0.09);
+}
+
+.ball41 {
+  background: rgba(73, 18, 95, 0.81);
+  width: 38px;
+  height: 38px;
+  margin-left: 369px;
+  left: 191px;
+  top: 177px;
+}
+.ball41:active {
+  background: rgba(39, 112, 219, 0.93);
+}
+
+.ball42 {
+  background: rgba(87, 180, 135, 0.58);
+  width: 26px;
+  height: 26px;
+  margin-left: 397px;
+  left: 293px;
+  top: 322px;
+}
+.ball42:active {
+  background: rgba(58, 19, 152, 0.79);
+}
+
+.ball43 {
+  background: rgba(148, 113, 122, 0.1);
+  width: 115px;
+  height: 115px;
+  margin-left: 499px;
+  left: 455px;
+  top: 392px;
+}
+.ball43:active {
+  background: rgba(5, 31, 147, 0.86);
+}
+
+.ball44 {
+  background: rgba(245, 33, 33, 0.1);
+  width: 89px;
+  height: 89px;
+  margin-left: 175px;
+  left: 281px;
+  top: 444px;
+}
+.ball44:active {
+  background: rgba(238, 19, 75, 0.19);
+}
+
+.ball45 {
+  background: rgba(242, 188, 31, 0.04);
+  width: 146px;
+  height: 146px;
+  margin-left: 437px;
+  left: 409px;
+  top: 125px;
+}
+.ball45:active {
+  background: rgba(72, 197, 207, 0.88);
+}
+
+.ball46 {
+  background: rgba(0, 166, 83, 0.25);
+  width: 23px;
+  height: 23px;
+  margin-left: 332px;
+  left: 283px;
+  top: 456px;
+}
+.ball46:active {
+  background: rgba(186, 196, 48, 0.62);
+}
+
+.ball47 {
+  background: rgba(138, 1, 210, 0.7);
+  width: 142px;
+  height: 142px;
+  margin-left: 230px;
+  left: 171px;
+  top: 375px;
+}
+.ball47:active {
+  background: rgba(45, 162, 251, 0.22);
+}
+
+.ball48 {
+  background: rgba(3, 171, 178, 0.58);
+  width: 134px;
+  height: 134px;
+  margin-left: 319px;
+  left: 176px;
+  top: 362px;
+}
+.ball48:active {
+  background: rgba(173, 157, 209, 0.8);
+}
+
+.ball49 {
+  background: rgba(10, 91, 133, 0.68);
+  width: 68px;
+  height: 68px;
+  margin-left: 317px;
+  left: 452px;
+  top: 74px;
+}
+.ball49:active {
+  background: rgba(58, 122, 240, 0.23);
+}
+
+.ball50 {
+  background: rgba(98, 30, 53, 0.62);
+  width: 117px;
+  height: 117px;
+  margin-left: 254px;
+  left: 387px;
+  top: 347px;
+}
+.ball50:active {
+  background: rgba(161, 191, 22, 0.61);
+}
+
+.ball51 {
+  background: rgba(159, 186, 28, 0.15);
+  width: 119px;
+  height: 119px;
+  margin-left: 319px;
+  left: 498px;
+  top: 433px;
+}
+.ball51:active {
+  background: rgba(226, 214, 115, 0.57);
+}
+
+.ball52 {
+  background: rgba(248, 66, 190, 0.79);
+  width: 123px;
+  height: 123px;
+  margin-left: 330px;
+  left: 401px;
+  top: 172px;
+}
+.ball52:active {
+  background: rgba(20, 74, 239, 0.53);
+}
+
+.ball53 {
+  background: rgba(41, 111, 18, 0.45);
+  width: 117px;
+  height: 117px;
+  margin-left: 282px;
+  left: 419px;
+  top: 17px;
+}
+.ball53:active {
+  background: rgba(54, 38, 6, 0.97);
+}
+
+.ball54 {
+  background: rgba(79, 106, 25, 0.05);
+  width: 148px;
+  height: 148px;
+  margin-left: 455px;
+  left: 176px;
+  top: 295px;
+}
+.ball54:active {
+  background: rgba(221, 214, 229, 0.02);
+}
+
+.ball55 {
+  background: rgba(174, 204, 126, 0.7);
+  width: 55px;
+  height: 55px;
+  margin-left: 433px;
+  left: 474px;
+  top: 106px;
+}
+.ball55:active {
+  background: rgba(234, 89, 51, 0.46);
+}
+
+.ball56 {
+  background: rgba(41, 112, 17, 0.62);
+  width: 113px;
+  height: 113px;
+  margin-left: 59px;
+  left: 212px;
+  top: 151px;
+}
+.ball56:active {
+  background: rgba(196, 77, 170, 0.7);
+}
+
+.ball57 {
+  background: rgba(237, 116, 15, 0.59);
+  width: 33px;
+  height: 33px;
+  margin-left: 257px;
+  left: 480px;
+  top: 161px;
+}
+.ball57:active {
+  background: rgba(215, 166, 55, 0.49);
+}
+
+.ball58 {
+  background: rgba(86, 247, 168, 0.52);
+  width: 145px;
+  height: 145px;
+  margin-left: 270px;
+  left: 131px;
+  top: 445px;
+}
+.ball58:active {
+  background: rgba(208, 76, 35, 0.75);
+}
+
+.ball59 {
+  background: rgba(18, 151, 24, 0.62);
+  width: 43px;
+  height: 43px;
+  margin-left: 176px;
+  left: 481px;
+  top: 98px;
+}
+.ball59:active {
+  background: rgba(163, 31, 205, 0.18);
+}
+
+.ball60 {
+  background: rgba(109, 167, 110, 0.41);
+  width: 134px;
+  height: 134px;
+  margin-left: 391px;
+  left: 84px;
+  top: 302px;
+}
+.ball60:active {
+  background: rgba(145, 42, 229, 0.58);
+}
+
+.ball61 {
+  background: rgba(191, 217, 105, 0.24);
+  width: 112px;
+  height: 112px;
+  margin-left: 478px;
+  left: 133px;
+  top: 62px;
+}
+.ball61:active {
+  background: rgba(93, 219, 243, 0.49);
+}
+
+.ball62 {
+  background: rgba(188, 59, 232, 0.53);
+  width: 14px;
+  height: 14px;
+  margin-left: 100px;
+  left: 408px;
+  top: 48px;
+}
+.ball62:active {
+  background: rgba(94, 6, 102, 0.94);
+}
+
+.ball63 {
+  background: rgba(12, 84, 78, 0.86);
+  width: 67px;
+  height: 67px;
+  margin-left: 427px;
+  left: 379px;
+  top: 460px;
+}
+.ball63:active {
+  background: rgba(181, 112, 242, 0.65);
+}
+
+.ball64 {
+  background: rgba(21, 30, 224, 0.78);
+  width: 98px;
+  height: 98px;
+  margin-left: 151px;
+  left: 157px;
+  top: 392px;
+}
+.ball64:active {
+  background: rgba(63, 144, 230, 0.99);
+}
+
+.ball65 {
+  background: rgba(61, 37, 63, 0.7);
+  width: 64px;
+  height: 64px;
+  margin-left: 168px;
+  left: 17px;
+  top: 253px;
+}
+.ball65:active {
+  background: rgba(236, 247, 68, 0.47);
+}
+
+.ball66 {
+  background: rgba(221, 2, 178, 0.81);
+  width: 135px;
+  height: 135px;
+  margin-left: 4px;
+  left: 278px;
+  top: 464px;
+}
+.ball66:active {
+  background: rgba(11, 123, 213, 0.11);
+}
+
+.ball67 {
+  background: rgba(152, 254, 200, 0.02);
+  width: 85px;
+  height: 85px;
+  margin-left: 332px;
+  left: 137px;
+  top: 362px;
+}
+.ball67:active {
+  background: rgba(8, 222, 108, 0.86);
+}
+
+.ball68 {
+  background: rgba(117, 95, 85, 0.55);
+  width: 139px;
+  height: 139px;
+  margin-left: 231px;
+  left: 81px;
+  top: 379px;
+}
+.ball68:active {
+  background: rgba(215, 166, 138, 0.87);
+}
+
+.ball69 {
+  background: rgba(168, 173, 69, 0.52);
+  width: 20px;
+  height: 20px;
+  margin-left: 445px;
+  left: 451px;
+  top: 248px;
+}
+.ball69:active {
+  background: rgba(26, 177, 239, 0.35);
+}
+
+.ball70 {
+  background: rgba(80, 205, 174, 0.76);
+  width: 121px;
+  height: 121px;
+  margin-left: 256px;
+  left: 22px;
+  top: 25px;
+}
+.ball70:active {
+  background: rgba(228, 7, 27, 0.25);
+}
+
+.ball71 {
+  background: rgba(0, 110, 83, 0.95);
+  width: 88px;
+  height: 88px;
+  margin-left: 471px;
+  left: 108px;
+  top: 175px;
+}
+.ball71:active {
+  background: rgba(87, 74, 148, 0.93);
+}
+
+.ball72 {
+  background: rgba(56, 140, 82, 0.1);
+  width: 55px;
+  height: 55px;
+  margin-left: 95px;
+  left: 71px;
+  top: 475px;
+}
+.ball72:active {
+  background: rgba(204, 12, 102, 0.2);
+}
+
+.ball73 {
+  background: rgba(118, 206, 88, 0.17);
+  width: 113px;
+  height: 113px;
+  margin-left: 242px;
+  left: 202px;
+  top: 492px;
+}
+.ball73:active {
+  background: rgba(124, 139, 34, 0.32);
+}
+
+.ball74 {
+  background: rgba(7, 41, 165, 0.3);
+  width: 99px;
+  height: 99px;
+  margin-left: 386px;
+  left: 66px;
+  top: 454px;
+}
+.ball74:active {
+  background: rgba(71, 241, 207, 0.88);
+}
+
+.ball75 {
+  background: rgba(78, 111, 98, 0.09);
+  width: 58px;
+  height: 58px;
+  margin-left: 25px;
+  left: 335px;
+  top: 391px;
+}
+.ball75:active {
+  background: rgba(125, 1, 183, 0.19);
+}
+
+.ball76 {
+  background: rgba(89, 222, 130, 0.98);
+  width: 61px;
+  height: 61px;
+  margin-left: 21px;
+  left: 253px;
+  top: 383px;
+}
+.ball76:active {
+  background: rgba(225, 25, 90, 0.72);
+}
+
+.ball77 {
+  background: rgba(103, 166, 77, 0.72);
+  width: 102px;
+  height: 102px;
+  margin-left: 460px;
+  left: 243px;
+  top: 458px;
+}
+.ball77:active {
+  background: rgba(54, 86, 92, 0.29);
+}
+
+.ball78 {
+  background: rgba(42, 29, 188, 0.15);
+  width: 143px;
+  height: 143px;
+  margin-left: 164px;
+  left: 201px;
+  top: 198px;
+}
+.ball78:active {
+  background: rgba(222, 154, 34, 0.9);
+}
+
+.ball79 {
+  background: rgba(153, 35, 86, 0.45);
+  width: 104px;
+  height: 104px;
+  margin-left: 116px;
+  left: 498px;
+  top: 494px;
+}
+.ball79:active {
+  background: rgba(138, 196, 134, 0.37);
+}
+
+.ball80 {
+  background: rgba(169, 251, 9, 0.57);
+  width: 130px;
+  height: 130px;
+  margin-left: 386px;
+  left: 255px;
+  top: 403px;
+}
+.ball80:active {
+  background: rgba(194, 191, 127, 0.3);
+}
+
+.ball81 {
+  background: rgba(105, 179, 81, 0.61);
+  width: 76px;
+  height: 76px;
+  margin-left: 218px;
+  left: 69px;
+  top: 33px;
+}
+.ball81:active {
+  background: rgba(143, 129, 51, 0.71);
+}
+
+.ball82 {
+  background: rgba(231, 152, 243, 0.57);
+  width: 74px;
+  height: 74px;
+  margin-left: 107px;
+  left: 56px;
+  top: 455px;
+}
+.ball82:active {
+  background: rgba(168, 50, 228, 0.33);
+}
+
+.ball83 {
+  background: rgba(69, 131, 198, 0.77);
+  width: 30px;
+  height: 30px;
+  margin-left: 369px;
+  left: 102px;
+  top: 258px;
+}
+.ball83:active {
+  background: rgba(88, 182, 198, 0.33);
+}
+
+.ball84 {
+  background: rgba(251, 147, 186, 0.95);
+  width: 124px;
+  height: 124px;
+  margin-left: 283px;
+  left: 256px;
+  top: 248px;
+}
+.ball84:active {
+  background: rgba(81, 1, 6, 0.89);
+}
+
+.ball85 {
+  background: rgba(115, 225, 210, 0.76);
+  width: 57px;
+  height: 57px;
+  margin-left: 335px;
+  left: 75px;
+  top: 433px;
+}
+.ball85:active {
+  background: rgba(51, 17, 170, 0.74);
+}
+
+.ball86 {
+  background: rgba(251, 73, 252, 0.03);
+  width: 84px;
+  height: 84px;
+  margin-left: 185px;
+  left: 39px;
+  top: 47px;
+}
+.ball86:active {
+  background: rgba(2, 62, 151, 0.62);
+}
+
+.ball87 {
+  background: rgba(184, 200, 20, 0.13);
+  width: 135px;
+  height: 135px;
+  margin-left: 88px;
+  left: 86px;
+  top: 390px;
+}
+.ball87:active {
+  background: rgba(12, 194, 109, 0.79);
+}
+
+.ball88 {
+  background: rgba(21, 45, 73, 0.21);
+  width: 131px;
+  height: 131px;
+  margin-left: 359px;
+  left: 187px;
+  top: 454px;
+}
+.ball88:active {
+  background: rgba(142, 68, 46, 0.62);
+}
+
+.ball89 {
+  background: rgba(212, 189, 236, 0.75);
+  width: 47px;
+  height: 47px;
+  margin-left: 367px;
+  left: 294px;
+  top: 347px;
+}
+.ball89:active {
+  background: rgba(224, 152, 140, 0.97);
+}
+
+.ball90 {
+  background: rgba(64, 86, 160, 0.36);
+  width: 69px;
+  height: 69px;
+  margin-left: 247px;
+  left: 492px;
+  top: 391px;
+}
+.ball90:active {
+  background: rgba(224, 187, 140, 0.77);
+}
+
+.ball91 {
+  background: rgba(125, 141, 48, 0.26);
+  width: 36px;
+  height: 36px;
+  margin-left: 138px;
+  left: 231px;
+  top: 322px;
+}
+.ball91:active {
+  background: rgba(180, 178, 40, 0.72);
+}
+
+.ball92 {
+  background: rgba(66, 187, 99, 0.4);
+  width: 65px;
+  height: 65px;
+  margin-left: 115px;
+  left: 86px;
+  top: 225px;
+}
+.ball92:active {
+  background: rgba(125, 221, 171, 0.86);
+}
+
+.ball93 {
+  background: rgba(91, 232, 37, 0.76);
+  width: 92px;
+  height: 92px;
+  margin-left: 104px;
+  left: 347px;
+  top: 56px;
+}
+.ball93:active {
+  background: rgba(16, 160, 221, 0.44);
+}
+
+.ball94 {
+  background: rgba(215, 101, 194, 0.32);
+  width: 60px;
+  height: 60px;
+  margin-left: 46px;
+  left: 469px;
+  top: 193px;
+}
+.ball94:active {
+  background: rgba(169, 55, 9, 0.3);
+}
+
+.ball95 {
+  background: rgba(161, 53, 37, 0.76);
+  width: 147px;
+  height: 147px;
+  margin-left: 232px;
+  left: 460px;
+  top: 26px;
+}
+.ball95:active {
+  background: rgba(26, 241, 187, 0.63);
+}
+
+.ball96 {
+  background: rgba(194, 125, 242, 0.83);
+  width: 93px;
+  height: 93px;
+  margin-left: 484px;
+  left: 53px;
+  top: 101px;
+}
+.ball96:active {
+  background: rgba(159, 13, 36, 0.79);
+}
+
+.ball97 {
+  background: rgba(144, 235, 165, 0.81);
+  width: 12px;
+  height: 12px;
+  margin-left: 439px;
+  left: 113px;
+  top: 173px;
+}
+.ball97:active {
+  background: rgba(139, 192, 226, 0.21);
+}
+
+.ball98 {
+  background: rgba(148, 185, 24, 0.64);
+  width: 12px;
+  height: 12px;
+  margin-left: 120px;
+  left: 133px;
+  top: 331px;
+}
+.ball98:active {
+  background: rgba(101, 210, 179, 0.46);
+}
+
+.ball99 {
+  background: rgba(81, 232, 211, 0.11);
+  width: 25px;
+  height: 25px;
+  margin-left: 316px;
+  left: 356px;
+  top: 364px;
+}
+.ball99:active {
+  background: rgba(240, 4, 11, 0.14);
+}
+
+.ball100 {
+  background: rgba(61, 72, 191, 0.23);
+  width: 98px;
+  height: 98px;
+  margin-left: 277px;
+  left: 364px;
+  top: 1px;
+}
+.ball100:active {
+  background: rgba(160, 69, 227, 0.73);
+}
+
+@keyframes move {
+  50% {
+    left: 325px;
+  }
+}
+
+@-webkit-keyframes move {
+  50% {
+    left: 57px;
+  }
+}
