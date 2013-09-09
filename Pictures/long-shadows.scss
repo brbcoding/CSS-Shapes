@@ -1,9 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
 $font: 'Lily Script One', cursive;
-// long shadows will be no blur, += -1px += 1px 
-// $length = length in pixels that shadow should occupy - default = 50
-// $color  = color of shadow - default = #bada55
-// $direction = options are bottom-right, bottom-left, top-left, top-right -- default is bottom-right
 @mixin long-shadow($length: 50, $color: #bada55, $direction: bottom-right){
 	$shadow: '';
 	@if $direction == 'bottom-left' {
@@ -39,6 +35,7 @@ $font: 'Lily Script One', cursive;
 	text-shadow: unquote($shadow);
 }
 
+
 body {
 	background: #bada55;
 }
@@ -47,5 +44,6 @@ body {
 	font-size: 10em;
 	text-align: center;
 	color: white;
-	@include long-shadow(500, #000);
+	@include long-shadow(500, #000, bottom-left);
 }
+
