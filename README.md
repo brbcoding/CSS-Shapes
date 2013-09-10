@@ -3,7 +3,7 @@ CSS-Shapes
 
 Shapes and UI elements made with CSS - (SOME) Screenshots Below
 
-Many live examples from this repo can be found on my @Codepen **[profile](http://codepen.io/brbcoding]**.
+Many live examples from this repo can be found on my @Codepen [profile](http://codepen.io/brbcoding] .
 
 ![Arrows - Sass Mixin](http://i.imgur.com/zWXL23i.png)  
 ![Fun with Long Shadows - Sass Mixin](http://i.imgur.com/AlLAIkR.png)  
