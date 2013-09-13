@@ -8,8 +8,10 @@ Many live examples from this repo can be found on my @Codepen **[profile](http:/
 ![Arrows - Sass Mixin](http://i.imgur.com/zWXL23i.png)  
 ![Fun with Long Shadows - Sass Mixin](http://i.imgur.com/AlLAIkR.png)  
 ![Random Circles](http://i.imgur.com/4LwDcRQ.png)
-![Mario](http://i.imgur.com/MNjkQvI.png)
-![Minecraft Sword](http://i.imgur.com/j0g35Vw.png)
+![Unchecked](http://i.imgur.com/rLYfw93.png)
+![Checked](http://i.imgur.com/2T3e91n.png)
+<!-- ![Mario](http://i.imgur.com/MNjkQvI.png)
+![Minecraft Sword](http://i.imgur.com/j0g35Vw.png) -->
 <!-- ![Slide to Unlock](http://i.imgur.com/Ld4de1q.png)
 ![Aces](http://i.imgur.com/DrcNwlO.png)  
 ![Pacman](http://i.imgur.com/PCvB92i.png)  
