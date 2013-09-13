@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Happy+Monkey);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+body {
+  position: relative;
+  -webkit-user-select: none;
+  background: #EEEEEE;
+}
+
+#cb1 {
+  display: none;
+  position: relative;
+}
+
+#cb1 + label {
+  position: absolute;
+  min-height: 50px;
+  min-width: 125px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e14c5b), to(#b61c27));
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 0.5em;
+  color: white;
+  font-family: 'Happy Monkey', cursive;
+  text-align: center;
+  &:active {
+    -webkit-transform: translate(1px, 1px);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  }
+  &:after {
+    position: absolute;
+    line-height: 100%;
+    width: 100%;
+    left: 0;
+    top: calc(50% - 0.5em);
+    content: "Not Checked";
+  }
+}
+
+#cb1:checked + label {
+    		-webkit-transform: translate( 1px, 1px ); 
+		box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4d642d), to(#283a10));
+  &:after {
+    content: "Checked";
+  }
+}
+
+#cb2 + label {
+	position: absolute;
+	top: 75px;
+  left: 0;
+	min-height: 50px;
+	min-width: 200px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#555555));
+	box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.25);
+	border-radius: 0.5em;
+	color: white;
+	font-family: 'Happy Monkey', cursive;
+	&:active { 
+		-webkit-transform: translate( 1px, 1px ); 
+		box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+	}
+	&:after {
+		padding-left: 1em;
+		position: absolute;
+		line-height: 100%;
+		top: calc(50% - 0.5em);
+		content: "Checked?";
+	}
+	&:before {
+		background: #fff;
+		content: "\f00d";
+		font-family: 'FontAwesome', sans-serif;
+		font-size: 1.5rem;
+		padding: 0.1em;
+		color: red;
+		position: absolute;
+		width: 25px;
+		height: 25px;
+		top: calc(25% - 0.1em);
+		right: 10px;
+		border-radius: 5px;
+		text-align: center;
+		box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1) inset;
+	}
+}
+
+#cb2:checked + label {
+  		-webkit-transform: translate( 1px, 1px ); 
+		box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+	&:before {
+		content: "\f00c";
+		color: green;
+    
+	}
+}
