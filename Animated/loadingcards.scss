@@ -1,0 +1,89 @@
+// in progress!
+$length: 7; // matches length of loader text
+@import url(http://fonts.googleapis.com/css?family=Anton);
+
+body { 
+  background: black;
+  text-align: center;
+}
+
+#loader, #loader2, #loader3, #loader4 { 
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  font-family: 'Anton', sans-serif;
+  -webkit-perspective: 500;
+  & .letter {
+    position: relative;
+    text-align: left;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #bada55;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    &:after {
+      position: absolute;
+      line-height: 100px;
+      width: 100%;
+      text-align: center;
+      font-size: 3em;
+      content: attr(data-txt);
+      color: white;
+      text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+
+// basically just to delay the animations
+@for $i from 0 through $length {
+  #loader .letter:nth-of-type(#{$i}) {
+    $delay: 0.3 * $i;
+    -webkit-animation: flip 5s unquote($delay+"s") infinite;
+    animation: flip 5s unquote($delay+"s") infinite;
+  }
+  #loader2 .letter:nth-of-type(#{$i}) {
+    $delay: 0.3 * $i;
+    -webkit-animation: translation 3s unquote($delay+"s") infinite ease-in-out;
+    animation: translation 3s unquote($delay+"s") infinite ease-in-out;
+  }
+  #loader3 .letter:nth-of-type(#{$i}) {
+    $delay: 0.3 * $i;
+    -webkit-animation: color 5s unquote($delay+"s") infinite ease-in-out;
+    animation: color 5s unquote($delay+"s") infinite ease-in-out;
+    
+  }
+  #loader4 .letter:nth-of-type(#{$i}) {
+    $delay: 0.3 * $i;
+    -webkit-animation: color 5s unquote($delay+"s") infinite ease-in-out, translation 5s unquote($delay+"s") infinite ease-in-out;
+    animation: color 5s unquote($delay+"s") infinite ease-in-out, translation 5s unquote($delay+"s") infinite ease-in-out;
+    
+  }
+}
+
+// keyframes
+
+@keyframes flip {
+  50% { transform: rotateY(180deg); }
+}
+
+@-webkit-keyframes flip {
+  50% { -webkit-transform: rotateY(180deg); }
+}
+
+@keyframes translation {
+  50% { transform: translate(0, 25px); }
+}
+
+@-webkit-keyframes translation {
+  50% { -webkit-transform: translate(0, 25px); }
+}
+
+@keyframes color {
+  50% { opacity: 0.3; }
+}
+
+@-webkit-keyframes color {
+  50% { opacity: 0.3;}
+}

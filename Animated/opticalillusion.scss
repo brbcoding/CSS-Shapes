@@ -1,0 +1,25 @@
+$width: 500px;
+body { background: black; }
+
+section {
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+@for $i from 1 through 50 {
+  section:nth-of-type(#{$i}) {
+    width: $width - $i * 10;
+    height: $width - $i * 10;
+    -webkit-animation: cw 5s infinite ease-in-out;
+    @if $i == 0 or $i % 2 == 0 {     
+      background: darken(#bada55, 2% * $i);
+    } @else {
+      background: lighten(#bada55, 2% * $i);
+    }
+  }
+}
+
+@-webkit-keyframes cw {
+  50% { -webkit-transform: rotate(180deg); }
+}
